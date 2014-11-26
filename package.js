@@ -1,8 +1,8 @@
 Package.describe({
-  name: "u2622:persistent-session",
+  name: "aj:persistent-session",
   version: "0.2.1",
   summary: "Persistently store Session data on the client",
-  git: "https://github.com/okgrow/meteor-persistent-session"
+  git: "https://github.com/arndtjenssen/meteor-persistent-session"
 });
 
 Package.onUse(function(api) {
