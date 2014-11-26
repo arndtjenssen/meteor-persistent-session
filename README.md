@@ -8,10 +8,17 @@ Uses [amplifyjs's store](http://amplifyjs.com/api/store/) library to save
 values in the browsers `localStorage`, falling back to other solutions if it's
 not available.
 
+It's a fork
+===========
+This is a fork from https://github.com/okgrow/meteor-persistent-session
+All credits go to okrow, I just changed the default method (see options)
+to 'temporary' on the code side since I couldn't set the options via METEOR_SETTINGS when
+running with passenger phusion on the server side.
+
 Installation
 ============
 ```
-meteor add u2622:persistent-session
+meteor add ando:persistent-session
 ```
 
 That's it!

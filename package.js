@@ -1,5 +1,5 @@
 Package.describe({
-  name: "aj:persistent-session",
+  name: "ando:persistent-session",
   version: "0.2.1",
   summary: "Persistently store Session data on the client",
   git: "https://github.com/arndtjenssen/meteor-persistent-session"
